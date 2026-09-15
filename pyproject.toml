@@ -6,10 +6,17 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "colorama>=0.4.6",
+    "daytona-sdk>=0.211.2",
+    "deepagents>=0.7.14",
     "langchain>=1.4.0",
     "langchain-community>=0.4.2",
+    "langchain-daytona>=0.0.8",
     "langchain-openai>=1.6.2",
+    "langchain-tavily>=0.2.18",
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.2.11",
     "langgraph-cli[inmem]>=0.4.31",
+    "markdownify>=1.2.3",
+    "pypdf>=6.18.1",
+    "tavily-python>=0.8.3",
 ]
